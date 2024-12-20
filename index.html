@@ -60,22 +60,29 @@
         .actionbar input[type=text] {
           border: 1px solid #ccc;  
         }
+        
       }
-      </style>
+    .btn-elem {
+        width: 150px;
+        height: 150px;
+        border-radius: 10%;
+        display: block;
+        position: absolute;
+    }
+
+          </style>
 </head>
 
 <div class="actionbar">
   <a class="active" href="https://google.com">Home</a>
 </div>
 
-<div style="height:200; width:200">
-    <button class="image-button" onclick="location.href='games/eaglercraft_v1.8.8.html'">
-        <img src="assets/images/eaglercraft.png" alt="eaglercraft_1.8.8" width="150" height="50">
 
-                <div style="padding-left:16px">
-                  <button class="image-button" onclick="location.href='/'">
-                      <img src="psudoracer.png" alt="game_1" width="150" height="50">
-                           <h1>Game</h1>
-  
+    <button 
+    style="border: none; background-color: transparent;"
+    onclick="location.href='games/eaglercraft_v1.8.8.html'">
+    <img src="eaglercraft.png" 
+    class="btn-elem">
+
 </body>
 </html>
