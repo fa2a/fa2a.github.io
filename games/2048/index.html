@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Mathsfun</title>
+    <style>
+        .button {
+          background-color: #04AA6D;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 50px;
+        }
+        .actionbar {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  .actionbar a {
+    float: left;
+    display: block; 
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .actionbar a:hover {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
+  
+  .actionbar a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .actionbar input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .actionbar a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    
+    .actionbar input[type=text] {
+      border: 1px solid #ccc;  
+    }}
+    </style>
+
+<div class="actionbar">
+  <a class="active" href="https://fa2a.github.io">Home</a>
+</div>
+
+<div align="middle" class="player">
+  <iframe align="middle"src="https://lnahtml.github.io/a/2048" width="580" height="800" scrolling="none" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+</body>
+</html>
