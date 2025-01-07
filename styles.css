@@ -27,8 +27,11 @@ body {
 }
 
 .actionbar a.active {
-  background-color: #ffffff;
+  background-color: #231c1cd4;
   color: rgb(0, 0, 0);
+  border-radius: 50px;
+  width: 10%;
+  color:white;
 }
 
 .actionbar input[type=text] {
